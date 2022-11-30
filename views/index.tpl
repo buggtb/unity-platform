@@ -74,21 +74,19 @@
 </head>
 
 <body>
-  <header>
-    <h1 class="logo">Welcome to Beego</h1>
-    <div class="description">
-      Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
-    </div>
-  </header>
-  <footer>
-    <div class="author">
-      Official website:
-      <a href="http://{{.Website}}">{{.Website}}</a> /
-      Contact me:
-      <a class="email" href="mailto:{{.Email}}">{{.Email}}</a>
-    </div>
-  </footer>
-  <div class="backdrop"></div>
+  <h1>Welcome to the Unity Platform</h1>
+  <h3>Select the application you would like to deploy from the Unity Marketplace</h3>
+  <table>
+  <tr>
+
+      <th>Product Name</th><th>Product Version</th><th></th>
+
+    </tr>
+    <tr>
+      <td>Unity SPS</td><td>0.1</td><td><a href="/install/sps">Install</a></td>
+    </tr>
+
+    </table>
 
   <script src="/static/js/reload.min.js"></script>
 </body>
